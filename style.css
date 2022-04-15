@@ -14,6 +14,7 @@
     .banner p {
         padding: 20px 30px 20px 30px;
         text-align: center;
+        font-size: 20px;
     }   
 
     .mobileBar {
@@ -282,6 +283,7 @@
     .banner p {
         padding: 20px 60px 20px 60px;
         text-align: center;
+        font-size: 20px;
     }   
 
     .mobileBar {
@@ -561,8 +563,9 @@
     }
         
     .banner p {
-        padding: 20px 150px 20px 150px;
+        padding: 20px 130px 20px 130px;
         text-align: center;
+        font-size: 15px;
     }   
 
     .mobileBar {
@@ -860,7 +863,6 @@
     background-color: #1a1a1a;
     color: #fff;
     font-family: 'Cabin', sans-serif;
-    font-size: 20px;
 }
 
 
