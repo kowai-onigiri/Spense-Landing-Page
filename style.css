@@ -26,7 +26,7 @@
 
     .logo {
         flex: 1;
-
+        font-size: 24px;
     }
 
     .hamburgerMenu {
@@ -39,6 +39,47 @@
     #sidebar {
         display: none;
     }
+
+    .menuSide {
+        width: 80%;
+        border-radius: 5px;
+        position: relative;
+        /* top: 200px; */
+        background-color:#fff;
+        color: #1a1a1a;
+        align-self: center;
+        height: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+
+    .menuSide li {
+        list-style: none;
+        padding: 10px 0 10px 0;
+        text-align: center;
+    }
+
+    .menuSide a {
+        text-decoration: none;
+        color: #1a1a1a;
+        font-size: 24px;
+    }
+
+    #sideBtn {
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+        color: rgb(255, 255, 255);
+        background-color: #1a1a1a;
+        border: none;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 8px;
+    }
+    
 
     .headerBody {
         display: flex;
@@ -142,15 +183,16 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 0 30px 0 30px;
     }
 
-    .mobHighlight .highlightLeft {
-        padding: 30px 30px 0 30px;
-        margin-bottom: 0;
+
+    .highlightText {
+        padding-top: 30px;
     }
 
     .hlBigText {
-        font-size: 36px;
+        font-size: 32px;
         font-weight: 600;
         padding-bottom: 20px;
         color: #1a1a1a;
@@ -177,6 +219,7 @@
 
     .phoneMockMob {
         transform: translateY(3px);
+        width: 100%;
     }
 
     
@@ -194,6 +237,10 @@
     .textEd {
         width: 100%;
         margin: 0;
+    }
+
+    .textEdDesk {
+        display: none;
     }
 
     .demoBigText {
@@ -309,6 +356,48 @@
         display: none;
     }
 
+    .menuSide {
+        width: 70%;
+        border-radius: 5px;
+        position:relative;
+        /* top: 200px; */
+        background-color:#fff;
+        color: #1a1a1a;
+        align-self: center;
+        height: 260px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+        padding-top: 25px;
+    }
+
+    .menuSide li {
+        list-style: none;
+        padding: 10px 0 10px 0;
+        text-align: center;
+    }
+
+    .menuSide a {
+        text-decoration: none;
+        color: #1a1a1a;
+        font-size: 24px;
+    }
+
+    #sideBtn {
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+        color: rgb(255, 255, 255);
+        background-color: #1a1a1a;
+        border: none;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 8px;
+    }
+
+
     .headerBody {
         display: flex;
         flex-direction: column-reverse;
@@ -472,6 +561,10 @@
         width: 100%;
         height: auto;
         margin: 0;
+    }
+
+    .textEdDesk {
+        display: none;
     }
 
     .demoBigText {
@@ -559,7 +652,7 @@
 
     .headerBar {
         display: flex;
-        padding: 50px 150px 50px 150px;
+        padding: 30px 150px 50px 150px;
     }
         
     .banner p {
@@ -576,6 +669,8 @@
     .headerBar .logo {
         flex: 1;
         font-size: 24px;
+        display: flex;
+        align-items: center;
 
     }
 
@@ -586,13 +681,46 @@
 
     .navList li {
         list-style: none;
-        padding: 20px;
+        padding: 30px;
     }
 
     .navList a {
         color: #545454;
         text-decoration: none;
         font-family: 'Cabin', sans-serif;
+        font-weight: 600;
+    }
+
+    .signup {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex: 1;
+        
+    }
+
+    .loginBtn {
+        background-color: rgb(235, 225, 215);
+        color:#1a1a1a;
+        width: 80px;
+        height: 50px;
+        border: none;
+        font-size: 16px;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 600;
+
+    }
+
+    .signupBtn {
+        width: 110px;
+        height: 50px;
+        border: none;
+        background-color: #1a1a1a;
+        color: rgb(235, 225, 215);
+        border-radius: 5px;
+        font-size: 16px;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 500;
     }
 
     .hamburgerMenu {
@@ -606,10 +734,14 @@
 
     .headerBody {
         display: flex;
-        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        padding: 50px 50px 50px 50px;
+        padding: 0px 150px 50px 150px;
+    }
+
+    .headImg {
+        display: flex;
+        justify-content: flex-end;
     }
 
 
@@ -618,11 +750,12 @@
     }
 
     .headImgTab {
-        width: 100%
+        display: none;
     }
 
     .headImgDesk {
-        display: none;
+        width: 80%;
+        height: auto;
     }
 
     .headLeft {
@@ -632,7 +765,7 @@
     .bigText {
         font-size: 60px;
         font-weight: 700;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
     }
 
     .smallText {
@@ -642,7 +775,7 @@
     }
 
     .perk {
-        padding-bottom: 10px;
+        padding-bottom: 12px;
         font-size: 20px;
     }
 
@@ -662,7 +795,7 @@
     }
 
     #email::placeholder {
-        padding-left: 15px;
+        padding-left: 20px;
         font-family: 'Cabin', sans-serif;
         font-size: 20px;
     }
@@ -684,7 +817,7 @@
 
     .spotlight {
         flex-direction: column;
-        padding: 50px 50px 10px 50px;
+        padding: 50px 150px 10px 150px;
         
     }
 
@@ -696,33 +829,36 @@
     }
 
     .compLogo img {
-        width: 100px;
+        width: 8%;
         height: auto;
     }
 
     
-    .reddit,
-    .google,
-    .slack {
-        display: none;
-    }
 
     .mobHighlight {
-        flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .highlightLeft {
+        flex: 1;
+    }
+    
+    .highlightRight {
+        flex: 1;
     }
 
 
 
     .highlightText {
-        padding: 100px 100px 0 100px;
+        padding: 30px 80px 30px 80px;
+        flex: 1;
     }
 
     .hlBigText {
         font-size: 36px;
         font-weight: 600;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         color: #1a1a1a;
     }
     
@@ -730,7 +866,7 @@
         color: #545454;
         font-size: 18px;
         line-height: 1.5;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
     
     
@@ -743,7 +879,10 @@
 
 
     .phoneMock {
-        display: none;
+        width: 90%;
+        padding: 20px 30px 0 30px;
+        flex: 2;
+        transform: translateY(4px);
     }
 
     .phoneMockMob {
@@ -754,45 +893,56 @@
 
 
     .phoneMockTab {
-        transform: translateY(3px);
-        height: auto;
+        display: none;
     }
 
     .demoHighlight {
-        flex-direction: column-reverse;
+        padding: 50px 0 50px 0;
+        align-items: center;
+        /* flex-direction: column-reverse; */
     }
 
 
-    .textEd {
+    .textEdDesk {
         width: 100%;
         height: auto;
-        margin: 0;
+    }
+
+    .textEd {
+        display: none;
+    }
+
+    .demoLeft {
+        width: fit-content;
     }
 
     .demoBigText {
-        padding: 60px 0 10px 0;
+        padding-bottom: 30px;
         font-size: 42px;
+
     }
 
+
     .demoRight {
-        padding-bottom: 30px;
+    padding-left: 70px;
     }
 
     /* *****FOOTER***** */
 
     .footer {
-        flex-direction: column;
-        padding: 0 50px 0 50px;
+        align-items: baseline;
+        padding: 0 150px 0 150px;
     }
 
     .bio {
-        padding: 50px 0 30px 0;
+        padding: 50px 100px 50px 0;
+
 
     }
 
     .bioHead {
         font-weight: 600;
-        padding-bottom: 10px;
+        /* padding-bottom: 10px; */
         font-size: 18px;
     }
 
@@ -803,6 +953,7 @@
     }
 
     .footLinks {
+        padding-top: 50px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -840,7 +991,7 @@
     }
 
     .linkList {
-        width: 120px;
+        width: 180px;
         padding-bottom: 30px;
     }
 
@@ -912,10 +1063,9 @@
 }
 
 .mobHighlight {
-    height: fit-content;
+    /* height: fit-content; */
     border-radius: 10px;
     background-color: rgb(235, 225, 215);
-    
     margin-top: 50px;
     display: flex;
 }
