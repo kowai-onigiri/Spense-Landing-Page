@@ -1,29 +1,59 @@
+This is a solution to Codewell's [Web Developer Portfolio Challenge](https://www.codewell.cc/challenges/spense-landing-page--608a7a859691700015db16c5).  
 
-# Welcome to Codewell! 👋
+## Table of contents
 
-Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
-
-Free or paid, all templates are high quality and will make great portfolio pieces.
-
-### I've completed the challenge, now what?
-
-We recommend using one of these two websites to deploy your projects
-
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
-
-They're super easy to setup and you should have your website up and running in no time, just follow their instructions.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
 
-### Submit your solution to Codewell
+## Overview
 
-Visit the relevant challenge on [Codewell](https://codewell.cc) and click on 'Submit Solution' right under the challenge.
-Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell the community what challenges you've faced.
+### The challenge
 
-### Join our community on Slack
+Users should be able to:
 
-If you want more real-time communication, you can visit our community on [Slack](https://join.slack.com/t/codewell-hq/shared_invite/zt-ni8c9g8h-gNYWrmqQ3Uh37dcLg9~LMQ). 
+- View the optimal layout for the app depending on their device's screen size
+- Access drop-down menu when they click the hamburger menu on phone and tablet displays
+- 
+### Screenshot
 
-### Fonts Used
+![](./screenshot1.jpg)
 
-https://fonts.google.com/specimen/Cabin
+![](./screenshot2.jpg)
+
+### Links
+
+- Solution URL: https://github.com/kowai-onigiri/Spense-Landing-Page
+- Live Site URL: https://kowai-onigiri.github.io/Spense-Landing-Page/
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile first
+- JS DOM manipulation
+
+### What I learned
+
+- Mobile first design
+- Responsive techniques
+- DOM manipulation
+
+
+### Continued development
+
+- add pages for each of the links
+- add a sign-up / login form page
+
+## Author
+
+- Alexis Chambers (kowai-onigiri)
